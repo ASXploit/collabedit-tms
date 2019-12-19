@@ -303,6 +303,7 @@ ol {
 #sidebar_div {
     float: right;
     width: 240px;
+	background-color: #222;
 }
 
 .bluediv {
