@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: transparent;
+	background: #333;
 }
 body {
 	line-height: 1;
@@ -63,7 +63,7 @@ gray: E3E3E3
 */
 
 body {
-    background-color: #E3E3E3;
+    background-color: #333;
     font-family: georgia,verdana,arial;
 }
 
@@ -84,7 +84,7 @@ ol {
 }
 
 #header {
-    background-color: #3CA0D0;
+    background-color: #333;
     height: 90px;
 }
 
@@ -93,7 +93,7 @@ ol {
 }
 
 #logos a {
-    background-color: #3CA0D0;
+    background-color: #333;
     z-index: 1;
     position: relative;
 }
@@ -196,18 +196,18 @@ ol {
     margin-right: 20px;
     margin-top: 20px;
     padding: 40px;
-    background-color: white;
+    background-color: #333;
 }
 
 #footer {
     margin-top: 15px;
     font-size: .7em;
-    color: #666666;
+    color: #3CA0D0;
     text-align: center;
 }
 
 #footer a {
-    color: black;
+    color: #3CA0D0;
     font-size: 1.0em;
 }
 
@@ -269,6 +269,7 @@ ol {
 }/* combining all_exported/static/css//commoneditornew.css */
 #editor_container {
     width: 100%;
+    background-color: #333;
 }
 
 #edit_area_text_div {
@@ -303,11 +304,11 @@ ol {
 #sidebar_div {
     float: right;
     width: 240px;
-	background-color: #222;
+	background-color: #333;
 }
 
 .bluediv {
-    background-color: #E1F2F9;
+    background-color: #333;
     padding: 10px;
     overflow: auto;
     border: 1px solid #888888;
@@ -315,6 +316,7 @@ ol {
 
 .chtmsg {
     padding-bottom: 7px;
+    background-color: #333;
 }
 
 .italicchat {
@@ -323,6 +325,7 @@ ol {
 
 .chat_label {
     font-weight: bold;
+    color: #3CA0D0;
     margin: 3px;
 }
 
@@ -362,7 +365,7 @@ ol {
     top: 5px;
     left: 215px;
     padding: 5px;
-    background-color: #3CA0D0;
+    background-color: #333;
     z-index: 1;
 }
 
@@ -411,9 +414,6 @@ ol {
     color: #666;
 }
 
-
-
-#result {
-	background-color: #333;
-	
+#collaborators_div {
+	color: #3CA0D0;
 }
